@@ -1,0 +1,11 @@
+<p>Nombre del cliente: {{nombre}}</p>
+<p>Apellido del cliente: {{apellido}}</p>
+<p>Edad del cliente: {{ edad.value }}</p>
+<p>Estatura del cliente: {{estatura.value}}</p>
+<p>Direccion del cliente: {{direccion.value}}</p>
+
+<p>Cambiar edad: <input type="number" #edad (keyup)="0"></p>
+
+<p>Cambiar estatura: <input type="text" #estatura (keyup)="0"> </p>
+
+<p>Introduzca la direccion: <input type="text" #direccion (keyup)="0"> </p>
